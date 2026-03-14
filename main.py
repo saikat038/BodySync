@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # NVIDEA_OPENAI_API_KEY = os.getenv("NVIDEA_OPENAI_API_KEY")
-NVIDEA_OPENAI_API_KEY = st.secrets("NVIDEA_OPENAI_API_KEY")
+NVIDEA_OPENAI_API_KEY = st.secrets["NVIDEA_OPENAI_API_KEY"]
 
 # --------------------------------------------------
 # LOAD JSON FROM CURRENT DIRECTORY
