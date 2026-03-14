@@ -1,0 +1,442 @@
+[
+  {
+    "userId": "USR_001",
+    "profile": {
+      "gender": "female",
+      "dateOfBirth": "1998-02-28",
+      "heightCm": 168,
+      "activityLevel": "moderate",
+      "goal": {
+        "type": "weight_loss",
+        "startWeightKg": 101,
+        "targetWeightKg": 75,
+        "targetDate": "2027-02-22",
+        "weeklyTargetLossKg": 0.5
+      },
+      "preferences": {
+        "dietType": "Indian",
+        "restDaysPerWeek": 1,
+        "units": "metric"
+      }
+    },
+    "bodyMeasurements": [
+      {
+        "date": "2026-02-16",
+        "weightKg": 100.8,
+        "bodyFatPercent": 38.2,
+        "source": "smart_scale"
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "date": "2026-02-16",
+        "totalCalories": 1640,
+        "proteinGrams": 105,
+        "fatGrams": 55,
+        "carbsGrams": 181,
+        "waterLiters": 2.5,
+        "source": "manual"
+      }
+    ],
+    "activityLogs": [
+      {
+        "date": "2026-02-16",
+        "steps": 7200,
+        "workoutMinutes": 30,
+        "caloriesBurned": 182,
+        "source": "wearable"
+      }
+    ],
+    "derivedMetrics": {
+      "latestBMR": 1720,
+      "estimatedTDEE": 2150,
+      "currentDailyCalorieTarget": 1650,
+      "lastUpdated": "2026-02-16"
+    }
+  },
+  {
+    "userId": "USR_001",
+    "profile": {
+      "gender": "female",
+      "dateOfBirth": "1998-02-28",
+      "heightCm": 168,
+      "activityLevel": "moderate",
+      "goal": {
+        "type": "weight_loss",
+        "startWeightKg": 101,
+        "targetWeightKg": 75,
+        "targetDate": "2027-02-22",
+        "weeklyTargetLossKg": 0.5
+      },
+      "preferences": {
+        "dietType": "Indian",
+        "restDaysPerWeek": 1,
+        "units": "metric"
+      }
+    },
+    "bodyMeasurements": [
+      {
+        "date": "2026-02-17",
+        "weightKg": 100.6,
+        "bodyFatPercent": 38.1,
+        "source": "smart_scale"
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "date": "2026-02-17",
+        "totalCalories": 1580,
+        "proteinGrams": 100,
+        "fatGrams": 52,
+        "carbsGrams": 178,
+        "waterLiters": 3.0,
+        "source": "manual"
+      }
+    ],
+    "activityLogs": [
+      {
+        "date": "2026-02-17",
+        "steps": 7000,
+        "workoutMinutes": 25,
+        "caloriesBurned": 175,
+        "source": "wearable"
+      }
+    ],
+    "derivedMetrics": {
+      "latestBMR": 1718,
+      "estimatedTDEE": 2145,
+      "currentDailyCalorieTarget": 1650,
+      "lastUpdated": "2026-02-17"
+    }
+  },
+  {
+    "userId": "USR_001",
+    "profile": {
+      "gender": "female",
+      "dateOfBirth": "1998-02-28",
+      "heightCm": 168,
+      "activityLevel": "moderate",
+      "goal": {
+        "type": "weight_loss",
+        "startWeightKg": 101,
+        "targetWeightKg": 75,
+        "targetDate": "2027-02-22",
+        "weeklyTargetLossKg": 0.5
+      },
+      "preferences": {
+        "dietType": "Indian",
+        "restDaysPerWeek": 1,
+        "units": "metric"
+      }
+    },
+    "bodyMeasurements": [
+      {
+        "date": "2026-02-18",
+        "weightKg": 100.4,
+        "bodyFatPercent": 38.0,
+        "source": "smart_scale"
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "date": "2026-02-18",
+        "totalCalories": 1720,
+        "proteinGrams": 115,
+        "fatGrams": 58,
+        "carbsGrams": 185,
+        "waterLiters": 2.8,
+        "source": "manual"
+      }
+    ],
+    "activityLogs": [
+      {
+        "date": "2026-02-18",
+        "steps": 7500,
+        "workoutMinutes": 35,
+        "caloriesBurned": 190,
+        "source": "wearable"
+      }
+    ],
+    "derivedMetrics": {
+      "latestBMR": 1715,
+      "estimatedTDEE": 2140,
+      "currentDailyCalorieTarget": 1650,
+      "lastUpdated": "2026-02-18"
+    }
+  },
+  {
+    "userId": "USR_001",
+    "profile": {
+      "gender": "female",
+      "dateOfBirth": "1998-02-28",
+      "heightCm": 168,
+      "activityLevel": "moderate",
+      "goal": {
+        "type": "weight_loss",
+        "startWeightKg": 101,
+        "targetWeightKg": 75,
+        "targetDate": "2027-02-22",
+        "weeklyTargetLossKg": 0.5
+      },
+      "preferences": {
+        "dietType": "Indian",
+        "restDaysPerWeek": 1,
+        "units": "metric"
+      }
+    },
+    "bodyMeasurements": [
+      {
+        "date": "2026-02-19",
+        "weightKg": 100.2,
+        "bodyFatPercent": 37.9,
+        "source": "smart_scale"
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "date": "2026-02-19",
+        "totalCalories": 1610,
+        "proteinGrams": 108,
+        "fatGrams": 54,
+        "carbsGrams": 173,
+        "waterLiters": 2.6,
+        "source": "manual"
+      }
+    ],
+    "activityLogs": [
+      {
+        "date": "2026-02-19",
+        "steps": 6800,
+        "workoutMinutes": 20,
+        "caloriesBurned": 168,
+        "source": "wearable"
+      }
+    ],
+    "derivedMetrics": {
+      "latestBMR": 1712,
+      "estimatedTDEE": 2135,
+      "currentDailyCalorieTarget": 1650,
+      "lastUpdated": "2026-02-19"
+    }
+  },
+  {
+    "userId": "USR_001",
+    "profile": {
+      "gender": "female",
+      "dateOfBirth": "1998-02-28",
+      "heightCm": 168,
+      "activityLevel": "moderate",
+      "goal": {
+        "type": "weight_loss",
+        "startWeightKg": 101,
+        "targetWeightKg": 75,
+        "targetDate": "2027-02-22",
+        "weeklyTargetLossKg": 0.5
+      },
+      "preferences": {
+        "dietType": "Indian",
+        "restDaysPerWeek": 1,
+        "units": "metric"
+      }
+    },
+    "bodyMeasurements": [
+      {
+        "date": "2026-02-20",
+        "weightKg": 100.1,
+        "bodyFatPercent": 37.8,
+        "source": "smart_scale"
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "date": "2026-02-20",
+        "totalCalories": 1988,
+        "proteinGrams": 125,
+        "fatGrams": 65,
+        "carbsGrams": 225,
+        "waterLiters": 3.2,
+        "source": "manual"
+      }
+    ],
+    "activityLogs": [
+      {
+        "date": "2026-02-20",
+        "steps": 7800,
+        "workoutMinutes": 40,
+        "caloriesBurned": 195,
+        "source": "wearable"
+      }
+    ],
+    "derivedMetrics": {
+      "latestBMR": 1710,
+      "estimatedTDEE": 2130,
+      "currentDailyCalorieTarget": 1650,
+      "lastUpdated": "2026-02-20"
+    }
+  },
+  {
+    "userId": "USR_001",
+    "profile": {
+      "gender": "female",
+      "dateOfBirth": "1998-02-28",
+      "heightCm": 168,
+      "activityLevel": "moderate",
+      "goal": {
+        "type": "weight_loss",
+        "startWeightKg": 101,
+        "targetWeightKg": 75,
+        "targetDate": "2027-02-22",
+        "weeklyTargetLossKg": 0.5
+      },
+      "preferences": {
+        "dietType": "Indian",
+        "restDaysPerWeek": 1,
+        "units": "metric"
+      }
+    },
+    "bodyMeasurements": [
+      {
+        "date": "2026-02-21",
+        "weightKg": 99.8,
+        "bodyFatPercent": 37.5,
+        "source": "smart_scale"
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "date": "2026-02-21",
+        "totalCalories": 1540,
+        "proteinGrams": 102,
+        "fatGrams": 48,
+        "carbsGrams": 175,
+        "waterLiters": 3.5,
+        "source": "manual"
+      }
+    ],
+    "activityLogs": [
+      {
+        "date": "2026-02-21",
+        "steps": 7400,
+        "workoutMinutes": 30,
+        "caloriesBurned": 185,
+        "source": "wearable"
+      }
+    ],
+    "derivedMetrics": {
+      "latestBMR": 1705,
+      "estimatedTDEE": 2125,
+      "currentDailyCalorieTarget": 1650,
+      "lastUpdated": "2026-02-21"
+    }
+  },
+  {
+    "userId": "USR_001",
+    "profile": {
+      "gender": "female",
+      "dateOfBirth": "1998-02-28",
+      "heightCm": 168,
+      "activityLevel": "moderate",
+      "goal": {
+        "type": "weight_loss",
+        "startWeightKg": 101,
+        "targetWeightKg": 75,
+        "targetDate": "2027-02-22",
+        "weeklyTargetLossKg": 0.5
+      },
+      "preferences": {
+        "dietType": "Indian",
+        "restDaysPerWeek": 1,
+        "units": "metric"
+      }
+    },
+    "bodyMeasurements": [
+      {
+        "date": "2026-02-22",
+        "weightKg": 99.5,
+        "bodyFatPercent": 37.2,
+        "source": "smart_scale"
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "date": "2026-02-22",
+        "totalCalories": 1656,
+        "proteinGrams": 110,
+        "fatGrams": 55,
+        "carbsGrams": 180,
+        "waterLiters": 2.9,
+        "source": "manual"
+      }
+    ],
+    "activityLogs": [
+      {
+        "date": "2026-02-22",
+        "steps": 8500,
+        "workoutMinutes": 45,
+        "caloriesBurned": 211,
+        "source": "wearable"
+      }
+    ],
+    "derivedMetrics": {
+      "latestBMR": 1700,
+      "estimatedTDEE": 2120,
+      "currentDailyCalorieTarget": 1650,
+      "lastUpdated": "2026-02-22"
+    }
+  },
+  {
+    "userId": "USR_001",
+    "profile": {
+      "gender": "female",
+      "dateOfBirth": "1998-02-28",
+      "heightCm": 168,
+      "activityLevel": "moderate",
+      "goal": {
+        "type": "weight_loss",
+        "startWeightKg": 101,
+        "targetWeightKg": 75,
+        "targetDate": "2027-02-22",
+        "weeklyTargetLossKg": 0.5
+      },
+      "preferences": {
+        "dietType": "Indian",
+        "restDaysPerWeek": 1,
+        "units": "metric"
+      }
+    },
+    "bodyMeasurements": [
+      {
+        "date": "2026-02-23",
+        "weightKg": 99.3,
+        "bodyFatPercent": 37.0,
+        "source": "smart_scale"
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "date": "2026-02-23",
+        "totalCalories": 1590,
+        "proteinGrams": 112,
+        "fatGrams": 50,
+        "carbsGrams": 173,
+        "waterLiters": 3.8,
+        "source": "manual"
+      }
+    ],
+    "activityLogs": [
+      {
+        "date": "2026-02-23",
+        "steps": 10500,
+        "workoutMinutes": 60,
+        "caloriesBurned": 283,
+        "source": "wearable"
+      }
+    ],
+    "derivedMetrics": {
+      "latestBMR": 1695,
+      "estimatedTDEE": 2110,
+      "currentDailyCalorieTarget": 1650,
+      "lastUpdated": "2026-02-23"
+    }
+  }
+]
