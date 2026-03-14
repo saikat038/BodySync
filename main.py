@@ -41,7 +41,9 @@ async def HealthReport():
         "days": 30
     }
 
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(
+        timeout=httpx.Timeout(30.0)
+    ) as client:
         response = await client.get(url, params=params)
         data = response.json()
 

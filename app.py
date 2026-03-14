@@ -112,8 +112,9 @@ if prompt:
 
     # AI response
     with st.spinner("Analyzing your body data..."):
-        loop = asyncio.new_event_loop()
-        answer = asyncio.run(ask_bodysync(prompt))
+        answer = asyncio.get_event_loop().run_until_complete(
+            ask_bodysync(prompt)
+    )
 
     st.markdown(
         f'<div class="bot-bubble">{answer}</div>',
