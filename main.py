@@ -1,11 +1,12 @@
-import json
-from typing import TypedDict
-from langgraph.graph import StateGraph, END
-from langchain_openai import ChatOpenAI
-from langchain_core.messages import SystemMessage, HumanMessage
-import logging
-from dotenv import load_dotenv
 import os
+import json
+import logging
+import streamlit as st
+from typing import TypedDict
+from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
+from langgraph.graph import StateGraph, END
+from langchain_core.messages import SystemMessage, HumanMessage
 
 
 logging.basicConfig(level=logging.INFO)
@@ -13,7 +14,8 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-NVIDEA_OPENAI_API_KEY = os.getenv("NVIDEA_OPENAI_API_KEY")
+# NVIDEA_OPENAI_API_KEY = os.getenv("NVIDEA_OPENAI_API_KEY")
+NVIDEA_OPENAI_API_KEY = st.secrets("NVIDEA_OPENAI_API_KEY")
 
 # --------------------------------------------------
 # LOAD JSON FROM CURRENT DIRECTORY
