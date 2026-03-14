@@ -45,6 +45,9 @@ async def HealthReport():
         timeout=httpx.Timeout(30.0)
     ) as client:
         response = await client.get(url, params=params)
+
+        response.raise_for_status()
+
         data = response.json()
 
     return data
