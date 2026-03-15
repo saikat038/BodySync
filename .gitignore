@@ -19,3 +19,5 @@ Thumbs.db
 
 # Ignore Streamlit/FAISS temp files
 .streamlit/
+
+BodySync/.vscode
