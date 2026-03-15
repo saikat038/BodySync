@@ -21,3 +21,4 @@ Thumbs.db
 .streamlit/
 
 BodySync/.vscode
+BodySync/.devcontainer
