@@ -16,6 +16,10 @@ load_dotenv()
 
 # NVIDEA_OPENAI_API_KEY = os.getenv("NVIDEA_OPENAI_API_KEY")
 NVIDEA_OPENAI_API_KEY = st.secrets["NVIDEA_OPENAI_API_KEY"]
+# NVIDEA_OPENAI_URL = os.getenv("NVIDEA_OPENAI_URL")
+NVIDEA_OPENAI_URL = st.secrets["NVIDEA_OPENAI_URL"]
+# BODY_DATA_API = os.getenv("NVIDEA_OPENAI_URL")
+BODY_DATA_API = st.secrets["BODY_DATA_API"]
 
 # --------------------------------------------------
 # LOAD JSON FROM CURRENT DIRECTORY
@@ -35,7 +39,7 @@ import httpx
 import asyncio
 
 async def HealthReport():
-    url = "https://1nvwbtt7-5000.inc1.devtunnels.ms/health/analysis/USR_001"
+    url = BODY_DATA_API
 
     params = {
         "days": 30
@@ -62,8 +66,8 @@ async def HealthReport():
 
 llm = ChatOpenAI(
     model="openai/gpt-oss-120b",
-    openai_api_key=os.getenv("NVIDEA_OPENAI_API_KEY"),
-    openai_api_base="https://integrate.api.nvidia.com/v1",
+    openai_api_key=NVIDEA_OPENAI_API_KEY,
+    openai_api_base=NVIDEA_OPENAI_URL,
     temperature=0,
     max_tokens=2000
 )
